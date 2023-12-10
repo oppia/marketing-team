@@ -26,13 +26,13 @@ body:
   - type: input
     attributes:
       label: Goals
-      description: Using the any of our 3 goals, please let us know what goal Oppia is trying to achieve with this post. **Example**: "Provide great CSAT (Goal 3)"
+      description: Using the any of our 3 goals, please let us know what goal Oppia is trying to achieve with this post. **Example**: "Provide great CSAT"
     validations:
       required: true
   - type: input
     attributes:
       label: Success Metrics
-      description: Please choose the success metric for this post. It should tally with the goal (e.g. Goal 1 tallies with Metric 1).  **Example**: "Engagement, Action (CTR) (Metric 3)"
+      description: Please choose the success metric for this post. It should tally with the goal (e.g. Goal 1 tallies with Metric 1).  **Example**: "Engagement, Action"
     validations:
       required: true
   - type: input
