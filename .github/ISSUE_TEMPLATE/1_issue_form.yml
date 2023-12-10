@@ -41,7 +41,7 @@ body:
       description: Please provide the emotions you intend to evoke in our audience with this post. **Example:** "Curiosity, Awe/Inspiration, Excitement"
     validations:
       required: true
-  - type: input
+  - type: textarea
     attributes:
       label: What Motivates Sharing with Others
       description: What is the *hook* that would inspire our audience to share this post?
