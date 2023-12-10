@@ -1,6 +1,6 @@
-name: New marketing team task
+name: New social 
 description: Create a brief for a new marketing team task
-title: ""
+title: "[SOCIAL MEDIA POST]: "
 labels: []
 body:
   - type: markdown
