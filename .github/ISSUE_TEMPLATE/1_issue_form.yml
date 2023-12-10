@@ -26,19 +26,19 @@ body:
   - type: input
     attributes:
       label: Goals
-      description: Using the any of our 3 goals, please let us know what goal Oppia is trying to achieve with this post. **Example**: "Provide great CSAT"
+      description: Using any of our 3 goals, please let us know what goal Oppia is trying to achieve with this post. **Example:** "Provide great CSAT"
     validations:
       required: true
   - type: input
     attributes:
       label: Success Metrics
-      description: Please choose the success metric for this post. It should tally with the goal (e.g. Goal 1 tallies with Metric 1).  **Example**: "Engagement, Action"
+      description: Please choose the success metric for this post. It should tally with the goal (e.g. Goal 1 tallies with Metric 1).  **Example:** "Engagement, Action"
     validations:
       required: true
   - type: input
     attributes:
       label: Emotion
-      description: Please provide the emotions you intend to evoke in our audience with this post. **Example**: "Curiosity, Awe/Inspiration, Excitement"
+      description: Please provide the emotions you intend to evoke in our audience with this post. **Example:** "Curiosity, Awe/Inspiration, Excitement"
     validations:
       required: true
   - type: input
@@ -50,7 +50,7 @@ body:
   - type: input
     attributes:
       label: Keywords
-      description: Please provide keywords for this post. **Example**: GSOC 2023, Google Summer of Code, Internships, Tech Internships, Oppia, Opensource
+      description: Please provide keywords for this post. **Example:** GSOC 2023, Google Summer of Code, Internships, Tech Internships, Oppia, Opensource
     validations:
       required: true
   - type: input
@@ -70,6 +70,6 @@ body:
       description: |
         What is the CTA for this post?
         
-        **Example**: "Volunteering is also a great way to develop your skill set just like ____ has done. Click to Volunteer. OR Contributing is a great way to improve your tech skills and contribute to opensource projects. Contribute to Oppia today."
+        **Example:** "Volunteering is also a great way to develop your skill set just like ____ has done. Click to Volunteer. OR Contributing is a great way to improve your tech skills and contribute to opensource projects. Contribute to Oppia today."
     validations:
       required: true
