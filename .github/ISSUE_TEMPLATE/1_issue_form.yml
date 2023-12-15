@@ -45,7 +45,10 @@ body:
   - type: textarea
     attributes:
       label: What Motivates Sharing with Others
-      description: What is the *hook* that would inspire our audience to share this post? Example: being seen as working for a worthy cause.
+      description: |
+        What is the *hook* that would inspire our audience to share this post? 
+        
+        **Example:** being seen as working for a worthy cause.
     validations:
       required: true
   - type: input
