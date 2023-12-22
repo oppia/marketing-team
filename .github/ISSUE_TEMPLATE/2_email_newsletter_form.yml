@@ -34,7 +34,7 @@ body:
         - Volunteer applications
         - Donations
         - Replies
-        - None
+        - N/A
     validations:
       required: true
   - type: textarea
