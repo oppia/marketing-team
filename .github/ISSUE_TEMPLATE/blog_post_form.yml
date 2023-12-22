@@ -1,0 +1,37 @@
+name: New blog post
+description: Create a brief for a new blog post
+title: "[BLOG POST]: "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for creating this brief for a new Marketing Team task.
+  - type: markdown
+    attributes:
+      value: |
+        Before filing a new task, **please do a quick search** to check that it hasn't already been filed on the issue tracker. You can do this by checking the list of open posts [here](https://github.com/orgs/oppia/projects/40).
+  - type: input
+    attributes:
+      label: Title of the blog post
+      description: The title of the blog post. **Example:** "Interview with current GSOC Interns"
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Subtitle
+      description: The subtitle of the blog post.
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: SEO/Meta text description
+      description: Please provide the meta description for the blog post
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Keywords
+      description: Please provide a list of keywords that should be mentioned in the blog post.
+    validations:
+      required: true
