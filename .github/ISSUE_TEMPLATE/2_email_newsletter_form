@@ -1,0 +1,61 @@
+name: New email newsletter post
+description: Create a brief for a new email newsletter post
+title: "[EMAIL NEWSLETTER POST]: "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for creating this brief for a new Marketing Team task.
+  - type: markdown
+    attributes:
+      value: |
+        Before filing a new task, **please do a quick search** to check that it hasn't already been filed on the issue tracker. You can do this by checking the list of open posts [here](https://github.com/orgs/oppia/projects/40).
+  - type: input
+    attributes:
+      label: Topic of the post
+      description: The topic of the newsletter that you want to send. **Example:** "Interview with current GSOC Interns"
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Goals
+      description: Using any of our 3 goals, please let us know what goal Oppia is trying to achieve with this newsletter posting. **Example:** "Provide great CSAT"
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Success Metrics
+      description: Please choose the success metric for this newsletter posting. It should tally with the goal (e.g. Goal 1 tallies with Metric 1).  **Example:** "Engagement, Action"
+      multiple: false
+      options:
+        - Subscribers
+        - Clicks
+        - Volunteer applications
+        - Donations
+        - Replies
+        - None
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Links with UTMs
+      description: |
+        Please provide a list of links with UTMs that you plan to use in the email.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Call to Action
+      description: |
+        What is the CTA for this post?
+        
+        **Example:** "Click to Volunteer" OR "Contribute to Oppia today."
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Publish/send date + time
+      description: Please provide the date and time the post should be scheduled for.
+    validations:
+      required: true
