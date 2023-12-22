@@ -29,11 +29,12 @@ body:
       description: Please choose the success metric for this newsletter posting. It should tally with the goal (e.g. Goal 1 tallies with Metric 1).  **Example:** "Engagement, Action"
       multiple: false
       options:
-        - Subscribers
+        - Opens
         - Clicks
         - Volunteer applications
         - Donations
         - Replies
+        - New subscribers
         - N/A
     validations:
       required: true
