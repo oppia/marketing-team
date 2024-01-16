@@ -1,0 +1,77 @@
+name: New image/video task
+description: Create a brief for the Media Creation team
+title: "[IMAGE/VIDEO]: "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for creating this brief for a new Image/Video task.
+  - type: markdown
+    attributes:
+      value: |
+        Before filing a new task, **please do a quick search** to check that it hasn't already been filed on the issue tracker. You can do this by checking the list of open posts [here](https://github.com/orgs/oppia/projects/40).
+  - type: dropdown
+    attributes:
+      label: Media Type
+      multiple: false
+      options:
+        - Image
+        - Animated GIF
+        - Video  
+  - type: input
+    attributes:
+      label: Topic of the post
+      description: The topic of the post that the media is for. **Example:** "Interview with current GSOC Interns"
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Medium/Channel
+      description: Which platform will this go on?
+      multiple: true
+      options:
+        - Newsletter
+        - Blog
+        - Twitter
+        - Facebook
+        - Instagram
+        - LinkedIn
+        - Google Ads
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Number of images/videos needed
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Goal of image/video
+      description: What is the aim of the image/video?
+      multiple: false
+      options:
+        - Fundraising/donations
+        - Building newsletter supporters
+        - Conversion to website/app/email signups
+        - Build brand awareness
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Copy
+      description: Please provide any text that should be in the image/video (other than the CTA)
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: CTA
+      description: Please provide details of any button/call-to-action copy that the media should include
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Description of image
+      description: Please provide a sample image or a detailed explanation of: what you want, how it should look, and/or what feeling it should convey
+    validations:
+      required: true
