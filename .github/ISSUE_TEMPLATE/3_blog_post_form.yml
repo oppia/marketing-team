@@ -1,7 +1,7 @@
 name: New blog post
 description: Create a brief for a new blog post
 title: "[BLOG POST]: "
-labels: []
+labels: [Blog post]
 body:
   - type: markdown
     attributes:
