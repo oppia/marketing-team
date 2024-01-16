@@ -28,7 +28,7 @@ body:
   - type: dropdown
     attributes:
       label: Medium/Channel
-      description: Which platform will this go on?
+      description: Which platform(s) will this go on?
       multiple: true
       options:
         - Newsletter
@@ -57,19 +57,19 @@ body:
         - Build brand awareness
     validations:
       required: true
-  - type: input
+  - type: textarea
     attributes:
       label: Copy
       description: Please provide any text that should be in the image/video (other than the CTA)
     validations:
       required: true
-  - type: input
+  - type: textarea
     attributes:
       label: CTA
       description: Please provide details of any button/call-to-action copy that the media should include
     validations:
       required: true
-  - type: input
+  - type: textarea
     attributes:
       label: Description of image
       description: Please provide a sample image or a detailed explanation of what you want, how it should look, and/or what feeling it should convey
