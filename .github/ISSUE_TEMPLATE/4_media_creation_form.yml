@@ -72,6 +72,6 @@ body:
   - type: input
     attributes:
       label: Description of image
-      description: Please provide a sample image or a detailed explanation of: what you want, how it should look, and/or what feeling it should convey
+      description: Please provide a sample image or a detailed explanation of what you want, how it should look, and/or what feeling it should convey
     validations:
       required: true
