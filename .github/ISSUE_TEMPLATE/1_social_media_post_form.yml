@@ -1,7 +1,7 @@
 name: New social media post
 description: Create a brief for a new social media post
 title: "[SOCIAL MEDIA POST]: "
-labels: []
+labels: [Social media post]
 body:
   - type: markdown
     attributes:
