@@ -1,7 +1,7 @@
 name: New email newsletter post
 description: Create a brief for a new email newsletter post
 title: "[EMAIL NEWSLETTER POST]: "
-labels: []
+labels: [Newsletter post]
 body:
   - type: markdown
     attributes:
