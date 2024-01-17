@@ -17,10 +17,16 @@ body:
       description: The topic of the post that you want to make. **Example:** "Interview with current GSOC Interns"
     validations:
       required: true
-  - type: input
+  - type: dropdown
     attributes:
-      label: Goals
-      description: Using any of our 3 goals, please let us know what goal Oppia is trying to achieve with this post. **Example:** "Provide great CSAT"
+      label: Goal
+      description: what goal is Oppia trying to achieve with this post?
+      multiple: false
+      options:
+        - Fundraising/donations
+        - Building newsletter supporters
+        - Conversion to website/app/email signups
+        - Build brand awareness
     validations:
       required: true
   - type: dropdown
