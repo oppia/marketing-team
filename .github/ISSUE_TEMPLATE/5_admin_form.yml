@@ -1,0 +1,19 @@
+name: New admin task
+description: Create a description of a new administrative task
+title: "[ADMIN]: "
+labels: [Team admin]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for creating this brief for a new Marketing Team admin task.
+  - type: markdown
+    attributes:
+      value: |
+        Before filing a new task, **please do a quick search** to check that it hasn't already been filed on the issue tracker. You can do this by checking the list of open posts [here](https://github.com/orgs/oppia/projects/40/views/7).
+  - type: input
+    attributes:
+      label: Description of the task
+      description: Give a clear description of the task that needs to be done. Specify what the deliverables are.
+    validations:
+      required: true
