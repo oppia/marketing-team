@@ -11,7 +11,7 @@ body:
     attributes:
       value: |
         Before filing a new task, **please do a quick search** to check that it hasn't already been filed on the issue tracker. You can do this by checking the list of open posts [here](https://github.com/orgs/oppia/projects/40/views/7).
-  - type: input
+  - type: textarea
     attributes:
       label: Description of the task
       description: Give a clear description of the task that needs to be done. Specify what the deliverables are.
